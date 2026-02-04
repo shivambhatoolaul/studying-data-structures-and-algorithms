@@ -1,6 +1,6 @@
 # 🧠 ds-and-algorithms
 
-This folder contains my interview preparation for data structures and algorithms based interviews—organized around common problem-solving patterns rather than individual problems. Most of the content here follows the [🧩 NeetCode 150](https://neetcode.io/practice/practice/neetcode150) problem set as a structured baseline. 
+This folder contains my interview preparation notes for data structures and algorithms based interviews—organized around common problem-solving patterns rather than individual problems. Most of the content here follows the [🧩 NeetCode 150](https://neetcode.io/practice/practice/neetcode150) problem set as a structured baseline. 
 
 Each pattern's folder includes:
 - A `README.md` file containing:
