@@ -39,4 +39,4 @@ def top_k_frequent_elements(nums: List[int], k: int) -> List[int]:
 
 ---
 
-**Takeaway(s):** Use bucket for distributed data over a known range (e.g., maximum occurences of an element).
+**Takeaway(s):** Use bucket sort for distributed data of same types over a known range.
