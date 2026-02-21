@@ -1,4 +1,4 @@
-# 2️⃣ TODO
+# 2️⃣ two-sum-ii
 
 **Problem:** Given an array of integers `numbers` that is sorted in non-decreasing order.
 
