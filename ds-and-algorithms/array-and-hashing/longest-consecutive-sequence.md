@@ -47,4 +47,4 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
 > ⚠️ This problem can also be solved with less space complexity by converting `nums` to a hashset, iterating through each `num`, seeing if `num-1` exists; if it doesn't, this means this is the start of a sequence—so, we see if `num+1`, `num+2`, and so on exists. Longest sequence found like this wins.
 ---
 
-**Takeaway(s):** Use hashsets for quick `O(1)` lookups on old values. If space complexity is not a problem, and you know the min and max values for an array of numbers, you can sort by iterating through the range of numbers and seeing if they exist in the original array converted to a hashset. 
+**Takeaway(s):** Use hashsets for quick *O(1)* lookups on old values. If space complexity is not a problem, and you know the min and max values for an array of numbers, you can sort by iterating through the range of numbers and seeing if they exist in the original array converted to a hashset. 
