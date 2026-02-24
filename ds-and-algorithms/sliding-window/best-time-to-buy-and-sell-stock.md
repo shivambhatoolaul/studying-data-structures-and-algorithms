@@ -21,14 +21,14 @@ Output: 0
 **Solution:**
 ```python
 def max_profit(prices: List[int]) -> int:
+        l = 0  # min
         max_profit = 0
-        min_day = prices[0]
-        for i in range(1, len(prices)):
-            min_day = min(min_day, prices[i])
-            max_profit = max(max_profit, prices[i] - min_day)
+        for r in range(1, len(prices)):
+            l = r if prices[r] < prices[l] else l
+            max_profit = max(max_profit, prices[r] - prices[l])
         return max_profit
 ```
 
 ---
 
-**Takeaway(s):** Use sliding window by keeping track of current `min_day` (start of window) and current `prices[i]` (end of window). We calculate the `profit` we would get for this window and move the window accordingly.
+**Takeaway(s):** Use sliding window by keeping track of current mininum: `l`: `prices[l]` (start of window) and current price on day `r`: `prices[r]` (end of window). In this problem, we only move the start of the window if a new minimum is found, and update the `max_profit` by calculating `prices[r] - prices[l]`.
