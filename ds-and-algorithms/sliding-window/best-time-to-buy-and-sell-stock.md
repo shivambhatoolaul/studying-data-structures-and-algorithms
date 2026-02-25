@@ -21,12 +21,12 @@ Output: 0
 **Solution:**
 ```python
 def max_profit(prices: List[int]) -> int:
-        l = 0  # min
-        max_profit = 0
-        for r in range(1, len(prices)):
-            l = r if prices[r] < prices[l] else l
-            max_profit = max(max_profit, prices[r] - prices[l])
-        return max_profit
+    l = 0  # min
+    max_profit = 0
+    for r in range(1, len(prices)):
+        l = r if prices[r] < prices[l] else l
+        max_profit = max(max_profit, prices[r] - prices[l])
+    return max_profit
 ```
 
 ---

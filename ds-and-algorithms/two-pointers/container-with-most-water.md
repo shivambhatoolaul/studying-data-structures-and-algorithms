@@ -19,19 +19,19 @@ Output: 4
 **Solution:**
 ```python
 def max_area(heights: List[int]) -> int:
-        l = 0
-        r = len(heights)-1
-        max_water = 0
-        for num in heights:
-            height = min(heights[l], heights[r])
-            width = r - l
-            curr_water =  height * width
-            max_water = max(max_water, curr_water)
-            if heights[l] > heights[r]:
-                r -= 1
-            else:
-                l += 1
-        return max_water
+    l = 0
+    r = len(heights)-1
+    max_water = 0
+    for num in heights:
+        height = min(heights[l], heights[r])
+        width = r - l
+        curr_water =  height * width
+        max_water = max(max_water, curr_water)
+        if heights[l] > heights[r]:
+            r -= 1
+        else:
+            l += 1
+    return max_water
 ```
 
 ---

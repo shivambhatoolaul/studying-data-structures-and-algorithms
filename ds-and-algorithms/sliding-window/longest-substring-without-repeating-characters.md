@@ -19,15 +19,15 @@ Output: 1
 **Solution:**
 ```python
 def length_of_longest_substring(s: str) -> int:
-        longest = 0
-        l = 0
-        seen = {}
-        for r in range(len(s)):
-            if s[r] in seen: 
-                l = max(l, seen[s[r]] + 1) # can't go back if duplicate was found earlier
-            seen[s[r]] = r
-            longest = max(longest, r-l+1)
-        return longest
+    longest = 0
+    l = 0
+    seen = {}
+    for r in range(len(s)):
+        if s[r] in seen: 
+            l = max(l, seen[s[r]] + 1) # can't go back if duplicate was found earlier
+        seen[s[r]] = r
+        longest = max(longest, r-l+1)
+    return longest
 ```
 
 ---
