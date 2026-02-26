@@ -1,8 +1,8 @@
 # 🧠 studying-data-structures-and-algorithms
 
-### 🚀 20 / 150 solved...
+### 🚀 22 / 150 solved...
 
-[🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜] 13%
+[🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜] 14%
 
 ---
 
