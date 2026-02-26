@@ -1,4 +1,4 @@
-# 🫂 longest-substring-without-repeating-characters
+# 🧍 longest-substring-without-repeating-characters
 
 **Problem:** Given a string `s`, find the length of the longest substring without duplicate characters.
 
@@ -32,4 +32,4 @@ def length_of_longest_substring(s: str) -> int:
 
 ---
 
-**Takeaway(s):** You might need to recalculate the bounds of a sliding window dynamically. Assure you use a *O(1)* lookup data structure (e.g., hashsets or hashmaps) to faciliate this. 
+**Takeaway(s):** Track last-seen indices with a hash map (in this problem: `seen`) and jump the sliding window’s left pointer past duplicates to maintain a valid substring in O(n) time.

@@ -53,4 +53,6 @@ def decode(s: str) -> List[str]:
 
 ---
 
-**Takeaway(s):** Strings are really just a list of characters. You can read strings from index to index. When creating delimitation rules, you need to clearly put the delimitation first to avoid the delimiter showing up in the string.
+**Takeaway(s):** Strings are essentially arrays of characters, so you can process them index by index.  
+
+When creating a custom delimiter, make sure it is before the actual string data, so you read the delimiter first, and make sure the delimiter is encoding how much to read, so no character in the string can be mistaken for the delimiter.

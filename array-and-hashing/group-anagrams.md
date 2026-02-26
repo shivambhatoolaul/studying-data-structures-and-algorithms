@@ -1,4 +1,4 @@
-# 🔀🔀 group-anagrams
+# 👥👥 group-anagrams
 
 **Problem:** Given an array of strings `strs`, group all anagrams together into sublists. You may return the output in any order.
 
@@ -29,4 +29,8 @@ def group_anagrams(strs: List[str]) -> List[List[str]]:
 
 ---
 
-**Takeaway(s):** You can't use other hashmaps as keys to a hashmap, but you can find creative ways to workaround this to get the same desired effect. Use ord() to get an integer value of a character. Use defaultdict() so you don't have to do initial existence check.
+**Takeaway(s):** Standard hash maps can’t have other mutable structures (like lists or dicts) as keys, but you can creatively represent data in a hashable form (e.g., convert a character count list to a string) to use as a key like in this problem: `word_repr[ord(char) - ord('a')] += 1`. 
+
+Use `ord()` to get the integer value of a character. 
+
+Use `defaultdict()` to avoid manually checking for key existence before appending or updating values.

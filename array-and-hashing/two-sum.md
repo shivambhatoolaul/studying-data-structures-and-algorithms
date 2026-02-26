@@ -30,4 +30,4 @@ def two_sum(nums: List[int], target: int) -> List[int]:
 
 ---
 
-**Takeaway(s):** Store computed data in hashmaps for quick re-lookup.
+**Takeaway(s):** Store past lookups (e.g., in this problem: `memory[nums[j]] = j`) in hashmaps for quick *O(1)* re-lookups.

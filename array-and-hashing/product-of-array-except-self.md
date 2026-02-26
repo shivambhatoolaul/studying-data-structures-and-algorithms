@@ -43,4 +43,6 @@ def product_except_self(nums: List[int]) -> List[int]:
 
 ---
 
-**Takeaway(s):** Use the prefix/postfix method for problems involving calculating all except 1 element in a collection. To iterate backwards on a list, use this indexing: `len(list)-1-i`.
+**Takeaway(s):** Use the prefix/postfix method for problems involving calculating all except 1 element in a collection. 
+
+To iterate backwards on a list, use this indexing: `len(list)-1-i`.

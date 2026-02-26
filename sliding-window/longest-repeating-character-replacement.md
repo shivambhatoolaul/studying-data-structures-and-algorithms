@@ -1,4 +1,4 @@
-# ❌ longest-repeating-character-replacement
+# 🫂 longest-repeating-character-replacement
 
 **Problem:** You are given a string s consisting of only uppercase english characters and an integer `k`. You can choose up to `k` characters of the string and replace them with any other uppercase English character.
 
@@ -38,4 +38,4 @@ def character_replacement(s: str, k: int) -> int:
 
 ---
 
-**Takeaway(s):** Spend time deducing valid window rules from problem to see whether we need to adjust/slide the window at an iteration. 
+**Takeaway(s):** Spend time deducing valid window rules from the problem to see whether we need to adjust/slide the window at an iteration. In this problem, the valid window rule is `window_size`: `(r - l + 1)` `- max_freq ≤ k`; track the max frequency to validate the window efficiently.

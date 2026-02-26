@@ -1,4 +1,4 @@
-# 🔀 valid-anagram
+# 👥 valid-anagram
 
 **Problem:** Given two strings `s` and `t`, return `true` if the two strings are anagrams of each other, otherwise return `false`.
 
@@ -22,4 +22,4 @@ def is_anagram(s, t):
 
 ---
 
-**Takeaway(s):** Hash maps allow us to count frequency of elements.
+**Takeaway(s):** Hash maps allow us to count frequency of elements. We can also compare entire hash maps to eachother.

@@ -48,12 +48,12 @@ def three_sum(nums: List[int]) -> List[List[int]]:
         two_sum_list = two_sum(nums[i+1:], -num)
         if two_sum_list:
             for two_sum_ans in two_sum_list:
-                res.append([num] + two_sum                      _ans)
+                res.append([num] + two_sum_ans)
 
     return res
 
 ```
-> ⚠️ This problem can also be solved with less space complexity by looking for the `two_sum_list`s without a new function. However for clarity—and to show how it relates to `two-sum-ii.md`—I chose this solution. 
+> ⚠️ This problem can also be solved with less space complexity by looking for the `two_sum_list`s without a new function. However for clarity—and to show how it relates to `two-sum-ii`—I chose this solution. 
 ---
 
 **Takeaway(s):** Same as two-sum-ii.md, but with an extra takeway: If we want more than 1 solution to a two pointer problem—that isn't a duplicate—we can also increase the left pointer xor decrease the right pointer and keep looking.
