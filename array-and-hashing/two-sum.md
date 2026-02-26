@@ -7,7 +7,7 @@ You may assume that every input has exactly one pair of indices `i` and `j` that
 Return the answer with the smaller index first.
 
 **Example:**
-```
+```shell
 Input: 
 nums = [3,4,5,6], target = 7
 

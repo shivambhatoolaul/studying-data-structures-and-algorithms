@@ -9,7 +9,7 @@ There will always be exactly one valid solution.
 Your solution must use *O(1)* additional space.
 
 **Example:**
-```
+```shell
 Input: numbers = [1,2,3,4], target = 3
 
 Output: [1,2]

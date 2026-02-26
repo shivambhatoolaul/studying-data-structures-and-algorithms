@@ -7,7 +7,7 @@ Each product is guaranteed to fit in a 32-bit integer.
 Follow-up: Could you solve it in *O(n)* time without using the division operation?
 
 **Example:**
-```
+```shell
 Input: nums = [1,2,4,6]
 
 Output: [48,24,12,8]

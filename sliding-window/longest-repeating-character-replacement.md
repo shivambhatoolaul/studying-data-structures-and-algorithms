@@ -5,7 +5,7 @@
 After performing at most `k` replacements, return the length of the longest substring which contains only one distinct character.
 
 **Example:**
-```
+```shell
 Input: s = "XYYX", k = 2
 
 Output: 4

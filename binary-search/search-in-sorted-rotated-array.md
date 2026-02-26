@@ -13,7 +13,7 @@ You may assume all elements in the sorted rotated array `nums` are unique,
 A solution that runs in *O(n)* time is trivial, can you write an algorithm that runs in *O(log n)* time?
 
 **Example:**
-```
+```shell
 Input: nums = [3,4,5,6,1,2]
 
 Output: 1

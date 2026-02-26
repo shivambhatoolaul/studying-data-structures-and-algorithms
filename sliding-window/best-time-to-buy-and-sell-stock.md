@@ -7,7 +7,7 @@ You may choose a single day to buy one NeetCoin and choose a different day in th
 Return the maximum profit you can achieve. You may choose to not make any transactions, in which case the profit would be `0`.
 
 **Example:**
-```
+```shell
 Input: prices = [10,1,5,6,7,1]
 
 Output: 6

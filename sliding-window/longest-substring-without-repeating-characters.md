@@ -5,7 +5,7 @@
 A substring is a contiguous sequence of characters within a string.
 
 **Example:**
-```
+```shell
 Input: s = "zxyzxyz"
 
 Output: 3

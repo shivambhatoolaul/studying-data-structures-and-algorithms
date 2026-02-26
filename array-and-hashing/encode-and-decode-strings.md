@@ -5,7 +5,7 @@
 
 
 **Example:**
-```
+```shell
 Input: dummy_input = ["Hello","World"]
 
 Output: ["Hello","World"]

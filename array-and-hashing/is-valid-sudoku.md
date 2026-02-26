@@ -10,7 +10,7 @@ Return true if the Sudoku board is valid, otherwise return false.
 Note: A board does not need to be full or be solvable to be valid.
 
 **Example:**
-```
+```shell
 Input: board =
 [["1","2",".",".","3",".",".",".","."],
  ["4",".",".","5",".",".",".",".","."],

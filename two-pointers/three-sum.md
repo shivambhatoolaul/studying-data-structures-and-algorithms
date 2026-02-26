@@ -5,7 +5,7 @@
 The output should not contain any duplicate triplets. You may return the output and the triplets in any order.
 
 **Example:**
-```
+```shell
 Input: nums = [-1,0,1,2,-1,-4]
 
 Output: [[-1,-1,2],[-1,0,1]]

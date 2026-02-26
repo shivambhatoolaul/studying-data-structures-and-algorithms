@@ -10,7 +10,7 @@ Every close bracket has a corresponding open bracket of the same type.
 Return `true` if `s` is a valid string, and `false` otherwise.
 
 **Example:**
-```
+```shell
 Input: s = "[]"
 
 Output: true

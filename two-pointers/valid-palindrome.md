@@ -7,7 +7,7 @@ A palindrome is a string that reads the same forward and backward. It is also ca
 Note: Alphanumeric characters consist of letters `(A-Z, a-z)` and numbers `(0-9)`.
 
 **Example:**
-```
+```shell
 Input: s = "Was it a car or a cat I saw?"
 
 Output: true
